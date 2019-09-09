@@ -1,0 +1,4 @@
+#Tue Sep 10 09:11:14 ICT 2019
+base.0=/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
