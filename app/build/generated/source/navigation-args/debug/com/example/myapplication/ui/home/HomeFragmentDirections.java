@@ -16,8 +16,7 @@ public class HomeFragmentDirections {
   }
 
   @NonNull
-  public static ActionHomeFragmentToHomeSecondFragment actionHomeFragmentToHomeSecondFragment(
-      @NonNull String myArg) {
+  public static ActionHomeFragmentToHomeSecondFragment actionHomeFragmentToHomeSecondFragment(@NonNull String myArg) {
     return new ActionHomeFragmentToHomeSecondFragment(myArg);
   }
 

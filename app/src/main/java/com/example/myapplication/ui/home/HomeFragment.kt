@@ -17,15 +17,18 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import com.example.myapplication.controller.SwipeControllerImpl
 import androidx.recyclerview.widget.RecyclerView
 import android.graphics.Canvas
+import android.widget.Toast
 import com.example.myapplication.controller.SwipeController
 
 class HomeFragment : Fragment(), SwipeController {
 
     override fun actionEdit(position: Int) {
         homeViewModel.apply {
-            listProjects.value?.removeAt(position)
-            homeAdapter?.notifyItemRemoved(position)
-            homeAdapter?.notifyItemRangeChanged(position, homeAdapter?.itemCount ?: return)
+            Toast.makeText(
+                context,
+                listProjects.value?.get(position)?.startDate,
+                Toast.LENGTH_SHORT
+            ).show()
         }
     }
 
@@ -83,7 +86,14 @@ class HomeFragment : Fragment(), SwipeController {
 
             //Attach controller to Fragment
             val swipeController = SwipeControllerImpl()
-            swipeController.setController(this@HomeFragment)
+
+            //
+            swipeController.setController(
+                swipeController = this@HomeFragment,
+                context = context?: return
+            )
+
+            //
             val itemTouchHelper = ItemTouchHelper(swipeController)
             itemTouchHelper.attachToRecyclerView(recycler_project)
 

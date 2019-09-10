@@ -6,56 +6,56 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+8-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+9-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-21:19
+11-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
-12-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.2] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/df8a9f48244251a31c2010e01f5a7411/core-1.0.2/AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.2] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/b024e65adb6ec13d69d05a8464456e78/core-1.0.2/AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:9-43
+15-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-41
+16-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-54
+17-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-35
+18-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-40
+20-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:11:9-40
 21        <activity
-21-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-20:20
+21-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:12:9-20:20
 22            android:name="com.example.myapplication.MainActivity"
-22-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:13-41
+22-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:13:13-41
 23            android:label="@string/app_name" >
-23-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:13-45
+23-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:14:13-45
 24            <intent-filter>
-24-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:13-19:29
+24-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:15:13-19:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:17-69
-25-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:25-66
+25-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:16:17-69
+25-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:16:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-77
-27-->/home/nguyen.thanh.tungh/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:27-74
+27-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:18:17-77
+27-->/Users/nguyenthanhtung/AndroidStudioProjects/SwipeRecyclerView/app/src/main/AndroidManifest.xml:18:27-74
 28            </intent-filter>
 29        </activity>
 30
 31        <provider
-31-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/09f06b0c17663e19996079b8086c7503/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/7219bd759843d4a10d93513423b6ec6f/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/09f06b0c17663e19996079b8086c7503/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/7219bd759843d4a10d93513423b6ec6f/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
 33            android:authorities="com.example.myapplication.lifecycle-process"
-33-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/09f06b0c17663e19996079b8086c7503/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/7219bd759843d4a10d93513423b6ec6f/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
 34            android:exported="false"
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/09f06b0c17663e19996079b8086c7503/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/7219bd759843d4a10d93513423b6ec6f/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
 35            android:multiprocess="true" />
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/nguyen.thanh.tungh/.gradle/caches/transforms-2/files-2.1/09f06b0c17663e19996079b8086c7503/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/nguyenthanhtung/.gradle/caches/transforms-2/files-2.1/7219bd759843d4a10d93513423b6ec6f/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
 36    </application>
 37
 38</manifest>
